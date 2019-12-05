@@ -1,0 +1,71 @@
+body{
+    font-family: 'Nunito Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+/******************         ******************************
+                   COVER 
+******************         ******************************/
+
+  .readCover{
+    height: 350px;
+    background: linear-gradient(90deg, #051b00e3, #000000b3), url(../img/action-brainstorming-business-1282166.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    border-bottom: dashed 1px white;
+  }
+
+  .homecoverTextContentBox{
+    background: rgba(255, 255, 255, 0.7) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #000000;
+}
+.homecoverTextContentBox div{
+    margin: 0 auto;
+}
+
+.homecoverlogoContent{
+    height:200px;
+    width: 200px;
+    border-radius: 200px;
+    background: #a8b8a4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 30px
+}
+
+.logo{
+    height: 150px;
+    width: 150px;
+    border-radius: 80px;
+  }
+/******************         ******************************
+                   COVER 
+******************         ******************************/
+
+/******************         ******************************
+                   IGUE 
+******************         ******************************/
+  .TextContent{
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: 0 auto;
+      text-align: justify;
+  }
+
+  /******************         ******************************
+                   IGUE 
+******************         ******************************/

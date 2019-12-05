@@ -1,0 +1,605 @@
+body{
+    font-family: 'Nunito Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, 0.7)
+}
+
+
+/******************         ******************************
+-------- MENU PRINCIPAL & TITRE MENU SECONDAIRE  ---------
+******************         ******************************/
+
+
+/******* MENU PRINCIPALE *******/
+.assisanceNavBar{
+  width: 100%;
+  background: linear-gradient(90deg, #3D952B, #336699);
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.menuNavBar{
+  font-size: 20px;
+  height: 70px;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.952);
+  text-transform: uppercase;
+}
+.menuNavBar img{
+  height: 60px;
+  width: 60px;
+  border-radius: 100px;
+  z-index: 20;
+}
+.menuNavBar .retourRS{
+  width: 100px;
+  text-align: center;
+  border: solid 2px #3d952ba1;
+  border-radius: 100px;
+  font-size: 15px;
+  z-index: 20;
+  text-transform: none;
+}
+
+/******* TITRE MENU SECONDAIRE I *******/
+
+.SecondariMenuNavBar{
+  background: linear-gradient(90deg, #3D952B, #336699);
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.952);
+  margin-top: -15px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.SecondariMenuNavBar div{
+  font-size: 20px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+}
+
+/******* TITRE MENU SECONDAIRE II *******/
+
+/* .troisièmeMenuNavBar{
+  justify-content: flex-start;
+  align-items: center;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.952);
+}
+.troisièmeMenuNavBar div{
+  background: linear-gradient(90deg, #3D952B, #336699);
+  font-size: 20px;
+  height: 70px;
+  width: 300px;
+  line-height: 70px;
+  text-align: center;
+  transform: translateX(47px)
+} */
+
+/******************         ******************************
+-------- MENU PRINCIPAL & TITRE MENU SECONDAIRE  ---------
+******************         ******************************/
+
+
+
+
+
+
+/*************************************/
+/*----- COVER DE LA PAGE       ------*/
+/*************************************/
+
+.homecover{
+    height: 100vh;
+    background: linear-gradient(90deg, #3d952b, #0000003d), url(../img/homeCover.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.homecoverTextContentBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #000000;
+}
+.homecoverTextContentBox div{
+    margin: 0 auto;
+}
+
+.homecoverlogoContent{
+    height:140px;
+    width: 140px;
+    border-radius: 200px;
+    background: #ded7d7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+    border-radius: 80px;
+  }
+
+  .homecoverdetail{
+      text-align: center;
+      color:white;
+  }
+  .homecoverdetail p:first-child{
+    font-size: 55px;
+    margin: 40px 0px;
+    font-weight: bold;
+}
+.homecoverdetail p:nth-child(3){
+    margin-top: 50px;
+    color: #ded7d7;
+    font-weight: bold;
+}
+.homecoverdetail span{
+    font-size: 20px;
+    margin: 30px 0px;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+
+.mouseContainer {
+    width: 24px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+  }
+  .mouseContainer .mouse {
+    margin-top: 20px;
+    border: 2px solid #ffffffa1;
+    width: 30px;
+    background-color: transparent;
+    height: 50px;
+    border-radius: 20px;
+  }
+  .mouseContainer .mouse .wheel {
+    width: 3px;
+    height: 3px;
+    border: 2px solid #ffffffa1;
+    background-color: #ffffffa1;
+    position: relative;
+    border-radius: 50%;
+    left: 50%;
+    margin-left: -2px;
+    top: 7px;
+    -webkit-animation: scroll 1s infinite;
+            animation: scroll 1s infinite;
+  }
+  
+  @-webkit-keyframes scroll {
+    0% {
+      top: 6px;
+      opacity: 0;
+    }
+    20% {
+      opacity: 1;
+    }
+    80% {
+      opacity: 1;
+    }
+    100% {
+      top: 20px;
+      opacity: 0;
+    }
+  }
+  
+  @keyframes scroll {
+    0% {
+      top: 6px;
+      opacity: 0;
+    }
+    20% {
+      opacity: 1;
+    }
+    80% {
+      opacity: 1;
+    }
+    100% {
+      top: 20px;
+      opacity: 0;
+    }
+  }
+  
+
+/*************************************/
+/*----- COVER DE LA PAGE       ------*/
+/*************************************/
+
+
+
+
+
+/*************************************/
+/*----- LISTE DES SERVICES      ------*/
+/*************************************/
+
+  .serviceTitleBox{
+    height: 100px;
+    color: black;
+    color:#565151;
+    text-align: center;
+  }
+
+  .servicexplainBox{
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+  .servicexplainBox .col-md-3{
+    height: 320px; 
+    padding: 0px 5px;
+  }
+     
+  .serviceBox{
+    height: 100%;
+    width: 100%;
+  }
+
+  .serviceBox h5{
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: -20px;
+    color:#565151;
+  }
+  .serviceBox p{
+   font-size: 13px;
+   color:#565151;
+  }
+  .serviceBox{
+    text-align: center;
+    /* border-radius: 10px; */
+    /* box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23); */
+    border: solid 2px #3c8f3838;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  }
+  
+  .serviceBox:hover{
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  }
+  .serviceImgBox1{
+    height: 170px;
+    background: linear-gradient(180deg, #3d952b4a, #3d952b4a), url(../img/juridiAssist.jpg); 
+    background-position: center;
+    background-size: cover;
+  }
+  .serviceImgBox2{
+    height: 170px;
+    background: linear-gradient(180deg, #3d952b4a, #3d952b4a), url(../img/judicAssist.jpg); 
+    background-position: center;
+    background-size: cover;
+  }
+  .serviceImgBox3{
+    height: 170px;
+    background: linear-gradient(180deg, #3d952b4a, #3d952b4a), url(../img/AssistaceItem.jpg); 
+    background-position: center;
+    background-size: cover;
+  }
+  .serviceImgBox4{
+    height: 170px;
+    background: linear-gradient(180deg, #3d952b4a, #3d952b4a), url(../img/ProcedureItem.jpg); 
+    background-position: center;
+    background-size: cover;
+  }
+  .ServiceIcone{
+    margin: 0px auto;
+    height: 80px;
+    padding: 20px;
+    width: 80px;
+    border: solid 1px white;
+    border-radius: 100px;
+    transform: translateY(-30px)
+  }
+.AsistIcon{
+  background: #004978;
+}
+
+.JuriIcon{
+  background: #ec1c24;
+}
+
+.DrtIcon{
+  background: #1a7038;
+}
+
+.PrIcon{
+  background: #b16004;
+}
+
+
+/*************************************/
+/*----- LISTE DES SERVICES      ------*/
+/*************************************/
+
+
+
+
+/*************************************/
+/*----- DEVENIR ASSISTANT JURIDIQUE -----*/
+/*************************************/
+
+.juridiAssistanteBox{
+  height: 550px;
+  background: linear-gradient(90deg, #3d952b47, #00000000), url(../img/juriqAssistante.jpeg);
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 30px;
+}
+
+.juridiAssistanteContentBox{
+  /*eaffeab5*/
+  height: 100%;
+  background:#293325bd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: white;
+}
+
+
+.conditionBox{
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.conditionBox h6{
+  font-weight: bold;
+}
+.conditionBox p{
+  font-size: 13px;
+}
+.conditionBox1{
+  height: 130px;
+  background: #0e2214d9
+}
+.conditionBox img{
+  height: 45px;
+  width: 45px;
+  margin-right: 50px;
+  margin-top: -50px;
+}
+.conditionBox div{
+  width: 400px;
+}
+
+
+
+.circle{
+  position: absolute;
+  top: 59%;
+  left: 55%;
+  margin-top: 7.1%;
+  transform: translate(-50%, -50%);
+}
+
+/*assistant animation circle*/
+.circle_three{
+  position: relative;
+  left: 40%;
+  margin-top: -1%;
+}
+
+.conditionBox span{
+  height: 35px;
+  width: 35px;
+  background-color: white;
+  opacity: 0;
+  position: absolute;
+  left: 0%;
+  border-radius: 50%;
+  animation: fade 2s infinite linear;
+}
+
+.conditionBox span:nth-child(2){
+  animation-delay: 0.2s;
+}
+
+.conditionBox span:nth-child(3){
+  animation-delay: 0.4s;
+}
+
+
+
+@keyframes fade {
+    0%{
+      opacity: 0;
+      transform: scale(0);
+    }
+
+    25%{
+      opacity: .5;
+      transform: scale(0);
+    }
+
+    100%{
+      opacity: 0;
+      transform: scale(1);
+    }
+}
+
+
+/*************************************/
+/*----- DEVENIR ASSISTANT JURIDIQUE -----*/
+/*************************************/
+
+
+
+
+
+
+/*************************************/
+/*----- CONNAITRE LES PROCEDURES -----*/
+/*************************************/
+
+
+.procedureBox{
+  height: 500px;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.procedureBox .col-md-7{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #a9c59db8
+}
+.procedureBox .col-md-7 div{
+  color:#565151;
+  width: 500px;
+}
+.procedureBox .col-md-7 div h3{
+  font-weight: bold;
+}
+.procedureBox .col-md-7 div p:nth-child(2){
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.procedureExample i{
+  font-size: 20px;
+  margin-right: 25px;
+}
+.Ex1{color: #ff5722;}.Ex2{color: #3a8945;}.Ex3{color: #346c8d;}
+.procedureBox .col-md-5{
+  background: linear-gradient(90deg, #3d952b4b, #00000000), url(../img/regina.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+
+
+/*************************************/
+/*----- CONNAITRE LES PROCEDURES -----*/
+/*************************************/
+
+
+
+
+
+/*************************************/
+/*----- LES STATISTIQUES   -----*/
+/*************************************/
+.statBox{
+  margin-bottom: 50px;
+}
+
+.statContentBox{
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color:white;
+  text-align: center;
+}
+.statContentBox img{
+  height: 70px;
+  width: 70px;
+}
+.statContentBox h1{
+  font-weight: bold;
+  font-size: 50px
+}
+.stat1{
+  background: #357379a6;
+}
+.stat2{
+  background: #397f60b8;
+}
+
+/*************************************/
+/*----- LES STATISTIQUES   -----*/
+/*************************************/
+
+
+
+
+
+
+
+/****************************************/
+/*--------RESPONSIVE DE LA PAGE---------*/
+/****************************************/
+
+
+
+@media screen and (max-width: 880px){
+
+  /*----- LISTE DES SERVICES      ------*/
+  .serviceTitleBox{
+    height: 100px;
+    color: black;
+  }
+  .servicexplainBox{
+    height: 400px; 
+    /* margin: 20px 0px; */
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+  .servicexplainBox .col-md-3{
+    height: 100%; 
+    padding: 0px 5px;
+    font-size: 13px;
+  }
+
+}
+
+
+@media screen and (max-width: 690px){
+
+  .homecoverTextContentBox{
+    background: rgba(255, 255, 255, 0.08);
+    color: white;
+  }
+}
+
+
+
+
+@media screen and (max-width: 670px){
+
+
+/*----- DEVENIR ASSISTANT JURIDIQUE -----*/
+
+.listeContainer{
+    margin-bottom: 1400px;
+  }
+.procedureContainer{
+  margin-bottom: 740px;
+}
+.SecondariMenuNavBar{
+  /* margin-top: 1300px; */
+}
+
+.servicexplainBox .col-md-3{
+  margin-bottom: 30px
+}
+
+.statBox{
+  /* margin-top: 620px; */
+}
+
+}
+
+
+
+
+
+
+
